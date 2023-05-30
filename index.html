@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IKS-OKS Igra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Na potezu je <span id="potez">X</span></p>
+    <div id="xox" class="container">
+        <div class="xox-red">
+            <div id="1" class="xox-celija">1</div>
+            <div id="2" class="xox-celija">2</div>
+            <div id="3" class="xox-celija">3</div>
+        </div>
+        <div class="xox-red">
+            <div id="4" class="xox-celija">4</div>
+            <div id="5" class="xox-celija">5</div>
+            <div id="6" class="xox-celija">6</div>
+        </div>
+        <div class="xox-red">
+            <div id="7" class="xox-celija">7</div>
+            <div id="8" class="xox-celija">8</div>
+            <div id="9" class="xox-celija">9</div>
+        </div>
+    </div>
+    <div id="rezultat" class="container">
+        <table id="rezultat-tabela">
+            <tr>
+                <th>Igrac X</th>
+                <th>Igrac O</th>
+            </tr>
+            <tr id="rezultat-red">
+                <td>0</td>
+                <td>0</td>
+            </tr>
+        </table>
+    </div>
+    <input id="reset" type="button" value="Resetuj igru">
+    <script src="main.js"></script>
+</body>
+</html>
