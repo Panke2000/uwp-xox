@@ -6,7 +6,7 @@
 }
 
 p{
-    margin: 20px 0 15px 5px;
+    margin: 20px 0 15px 47px;
     font-size: x-large;
 }
 
@@ -50,6 +50,11 @@ p{
 #rezultat-tabela tr > th, td{
     border: 1px solid black;
     padding: 10px 33px;
+    text-align: right;
+}
+
+.sakrij-rezultat{
+    display: none;
 }
 
 #reset {
