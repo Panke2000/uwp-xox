@@ -58,6 +58,7 @@ p{
     border-collapse: collapse;
     margin-left: 5px;
     margin-top: 5px;
+    width: 100%;
 }
 
 #rezultat-tabela tr > th, td{
@@ -77,7 +78,7 @@ p{
     border: 1px solid orangered;
     padding: 15px;
     font-size: x-large;
-    width: 244px;
+    width: 100%;
     color: orangered;
 }
 
