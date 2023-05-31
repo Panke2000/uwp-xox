@@ -9,7 +9,7 @@ let tabelaIgracO = document.getElementById('tabela-igrac-o');
 var xoxNodes = document.querySelectorAll('.xox-celija');
 
 document.addEventListener('click', (event) => {
-    let clickedTarget = event.target.innerHTML;
+    let clickedTarget = event.target.id;
     
     switch(clickedTarget) {
 
@@ -457,7 +457,7 @@ document.addEventListener('click', (event) => {
             }
             break;
 
-            case 'Resetuj igru':
+            case 'reset':
 
                 console.log('dugme za reset');
 
@@ -471,7 +471,7 @@ document.addEventListener('click', (event) => {
 
                 pobeda = false;
                 for(let i = 0; i < xoxNodes.length; ++i){
-                    xoxNodes[i].innerHTML = i + 1;
+                    xoxNodes[i].innerHTML = '';
                     xoxNodes[i].style.color = 'black';
                 }
 
