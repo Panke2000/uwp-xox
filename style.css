@@ -12,6 +12,16 @@ p{
 
 .container{
     display: flex;
+    justify-content: center;
+    padding-top: calc(25% - 250px);
+}
+
+.sub-container{
+    display: inline-block;
+    display: 49%;
+}
+
+.wrap{
     flex-wrap: wrap;
 }
 
@@ -23,6 +33,7 @@ p{
 .xox-red {
     display: flex;
     flex-basis: 100%;
+    width: 255px;
 }
 
 .xox-celija {
@@ -45,6 +56,7 @@ p{
 #rezultat-tabela {
     border-collapse: collapse;
     margin-left: 5px;
+    margin-top: 5px;
 }
 
 #rezultat-tabela tr > th, td{

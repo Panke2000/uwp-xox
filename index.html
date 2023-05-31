@@ -8,37 +8,40 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Na potezu je <span id="potez">X</span></p>
-    <div id="xox" class="container">
-        <div class="xox-red">
-            <div id="1" class="xox-celija">1</div>
-            <div id="2" class="xox-celija">2</div>
-            <div id="3" class="xox-celija">3</div>
+    
+    <div class="container">
+        <div id="xox" class="sub-container wrap">
+            <div class="xox-red">
+                <div id="1" class="xox-celija">1</div>
+                <div id="2" class="xox-celija">2</div>
+                <div id="3" class="xox-celija">3</div>
+            </div>
+            <div class="xox-red">
+                <div id="4" class="xox-celija">4</div>
+                <div id="5" class="xox-celija">5</div>
+                <div id="6" class="xox-celija">6</div>
+            </div>
+            <div class="xox-red">
+                <div id="7" class="xox-celija">7</div>
+                <div id="8" class="xox-celija">8</div>
+                <div id="9" class="xox-celija">9</div>
+            </div>
         </div>
-        <div class="xox-red">
-            <div id="4" class="xox-celija">4</div>
-            <div id="5" class="xox-celija">5</div>
-            <div id="6" class="xox-celija">6</div>
-        </div>
-        <div class="xox-red">
-            <div id="7" class="xox-celija">7</div>
-            <div id="8" class="xox-celija">8</div>
-            <div id="9" class="xox-celija">9</div>
+        <div id="rezultat" class="sub-container">
+            <table id="rezultat-tabela">
+                <tr>
+                    <th id="tabela-igrac-x">Igrac X</th>
+                    <th id="tabela-igrac-o">Igrac O</th>
+                </tr>
+                <tr id="rezultat-red" class="sakrij-rezultat">
+                    <td id="x-poeni">0</td>
+                    <td id="o-poeni">0</td>
+                </tr>
+            </table>
+            <button id="reset">Resetuj igru</button>
+            <p>Na potezu je <span id="potez">X</span></p>
         </div>
     </div>
-    <div id="rezultat" class="container">
-        <table id="rezultat-tabela">
-            <tr>
-                <th id="tabela-igrac-x">Igrac X</th>
-                <th id="tabela-igrac-o">Igrac O</th>
-            </tr>
-            <tr id="rezultat-red" class="sakrij-rezultat">
-                <td id="x-poeni">0</td>
-                <td id="o-poeni">0</td>
-            </tr>
-        </table>
-    </div>
-    <button id="reset">Resetuj igru</button>
     <script src="main.js"></script>
 </body>
 </html>
