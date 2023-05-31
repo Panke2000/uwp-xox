@@ -20,19 +20,19 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[0].innerHTML = 'X';
 
-                if(xoxNodes[1].innerHTML === 'X' && xoxNodes[2]. innerHTML === 'X'){
+                if(xoxNodes[1].innerHTML === 'X' && xoxNodes[2].innerHTML === 'X'){
                     obojiPolja(0, 1, 2, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[3].innerHTML === 'X' && xoxNodes[6]. innerHTML === 'X'){
+                }else if(xoxNodes[3].innerHTML === 'X' && xoxNodes[6].innerHTML === 'X'){
                     obojiPolja(0, 3, 6, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[8]. innerHTML === 'X'){
+                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[8].innerHTML === 'X'){
                     obojiPolja(0, 4, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -45,19 +45,19 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[0].innerHTML = 'O';
 
-                if(xoxNodes[1].innerHTML === 'O' && xoxNodes[2]. innerHTML === 'O'){
+                if(xoxNodes[1].innerHTML === 'O' && xoxNodes[2].innerHTML === 'O'){
                     obojiPolja(0, 1, 2, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[3].innerHTML === 'O' && xoxNodes[6]. innerHTML === 'O'){
+                }else if(xoxNodes[3].innerHTML === 'O' && xoxNodes[6].innerHTML === 'O'){
                     obojiPolja(0, 3, 6, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[8]. innerHTML === 'O'){
+                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[8].innerHTML === 'O'){
                     obojiPolja(0, 4, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -76,13 +76,13 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[1].innerHTML = 'X';
 
-                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[2]. innerHTML === 'X'){
+                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[2].innerHTML === 'X'){
                     obojiPolja(0, 1, 2, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[7]. innerHTML === 'X'){
+                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[7].innerHTML === 'X'){
                     obojiPolja(1, 4, 7, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -95,13 +95,13 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[1].innerHTML = 'O';
 
-                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[2]. innerHTML === 'O'){
+                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[2].innerHTML === 'O'){
                     obojiPolja(0, 1, 2, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[7]. innerHTML === 'O'){
+                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[7].innerHTML === 'O'){
                     obojiPolja(1, 4, 7, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -120,19 +120,19 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[2].innerHTML = 'X';
 
-                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[1]. innerHTML === 'X'){
+                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[1].innerHTML === 'X'){
                     obojiPolja(0, 1, 2, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[6]. innerHTML === 'X'){
+                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[6].innerHTML === 'X'){
                     obojiPolja(2, 4, 6, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[5].innerHTML === 'X' && xoxNodes[8]. innerHTML === 'X'){
+                }else if(xoxNodes[5].innerHTML === 'X' && xoxNodes[8].innerHTML === 'X'){
                     obojiPolja(2, 5, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -145,19 +145,19 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[2].innerHTML = 'O';
 
-                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[1]. innerHTML === 'O'){
+                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[1].innerHTML === 'O'){
                     obojiPolja(0, 1, 2, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[6]. innerHTML === 'O'){
+                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[6].innerHTML === 'O'){
                     obojiPolja(2, 4, 6, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[5].innerHTML === 'O' && xoxNodes[8]. innerHTML === 'O'){
+                }else if(xoxNodes[5].innerHTML === 'O' && xoxNodes[8].innerHTML === 'O'){
                     obojiPolja(2, 5, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -176,13 +176,13 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[3].innerHTML = 'X';
 
-                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[6]. innerHTML === 'X'){
+                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[6].innerHTML === 'X'){
                     obojiPolja(0, 3, 6, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[5]. innerHTML === 'X'){
+                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[5].innerHTML === 'X'){
                     obojiPolja(3, 4, 5, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -195,13 +195,13 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[3].innerHTML = 'O';
 
-                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[6]. innerHTML === 'O'){
+                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[6].innerHTML === 'O'){
                     obojiPolja(0, 3, 6, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[5]. innerHTML === 'O'){
+                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[5].innerHTML === 'O'){
                     obojiPolja(3, 4, 5, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -220,13 +220,13 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[4].innerHTML = 'X';
 
-                if(xoxNodes[1].innerHTML === 'X' && xoxNodes[7]. innerHTML === 'X'){
+                if(xoxNodes[1].innerHTML === 'X' && xoxNodes[7].innerHTML === 'X'){
                     obojiPolja(1, 4, 7, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[3].innerHTML === 'X' && xoxNodes[5]. innerHTML === 'X'){
+                }else if(xoxNodes[3].innerHTML === 'X' && xoxNodes[5].innerHTML === 'X'){
                     obojiPolja(3, 4, 5, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -239,13 +239,13 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[4].innerHTML = 'O';
 
-                if(xoxNodes[1].innerHTML === 'O' && xoxNodes[7]. innerHTML === 'O'){
+                if(xoxNodes[1].innerHTML === 'O' && xoxNodes[7].innerHTML === 'O'){
                     obojiPolja(1, 4, 7, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[3].innerHTML === 'O' && xoxNodes[5]. innerHTML === 'O'){
+                }else if(xoxNodes[3].innerHTML === 'O' && xoxNodes[5].innerHTML === 'O'){
                     obojiPolja(3, 4, 5, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -264,13 +264,13 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[5].innerHTML = 'X';
 
-                if(xoxNodes[2].innerHTML === 'X' && xoxNodes[8]. innerHTML === 'X'){
+                if(xoxNodes[2].innerHTML === 'X' && xoxNodes[8].innerHTML === 'X'){
                     obojiPolja(2, 5, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[3].innerHTML === 'X' && xoxNodes[4]. innerHTML === 'X'){
+                }else if(xoxNodes[3].innerHTML === 'X' && xoxNodes[4].innerHTML === 'X'){
                     obojiPolja(3, 4, 5, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -283,13 +283,13 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[5].innerHTML = 'O';
 
-                if(xoxNodes[2].innerHTML === 'O' && xoxNodes[8]. innerHTML === 'O'){
+                if(xoxNodes[2].innerHTML === 'O' && xoxNodes[8].innerHTML === 'O'){
                     obojiPolja(2, 5, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[3].innerHTML === 'O' && xoxNodes[4]. innerHTML === 'O'){
+                }else if(xoxNodes[3].innerHTML === 'O' && xoxNodes[4].innerHTML === 'O'){
                     obojiPolja(3, 4, 5, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -308,19 +308,19 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[6].innerHTML = 'X';
 
-                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[3]. innerHTML === 'X'){
+                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[3].innerHTML === 'X'){
                     obojiPolja(0, 3, 6, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[2]. innerHTML === 'X'){
+                }else if(xoxNodes[4].innerHTML === 'X' && xoxNodes[2].innerHTML === 'X'){
                     obojiPolja(2, 4, 6, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[7].innerHTML === 'X' && xoxNodes[8]. innerHTML === 'X'){
+                }else if(xoxNodes[7].innerHTML === 'X' && xoxNodes[8].innerHTML === 'X'){
                     obojiPolja(6, 7, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -333,19 +333,19 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[6].innerHTML = 'O';
 
-                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[3]. innerHTML === 'O'){
+                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[3].innerHTML === 'O'){
                     obojiPolja(0, 3, 6, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[2]. innerHTML === 'O'){
+                }else if(xoxNodes[4].innerHTML === 'O' && xoxNodes[2].innerHTML === 'O'){
                     obojiPolja(2, 4, 6, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[7].innerHTML === 'O' && xoxNodes[8]. innerHTML === 'O'){
+                }else if(xoxNodes[7].innerHTML === 'O' && xoxNodes[8].innerHTML === 'O'){
                     obojiPolja(6, 7, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -364,13 +364,13 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[7].innerHTML = 'X';
 
-                if(xoxNodes[1].innerHTML === 'X' && xoxNodes[4]. innerHTML === 'X'){
+                if(xoxNodes[1].innerHTML === 'X' && xoxNodes[4].innerHTML === 'X'){
                     obojiPolja(1, 4, 7, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[6].innerHTML === 'X' && xoxNodes[8]. innerHTML === 'X'){
+                }else if(xoxNodes[6].innerHTML === 'X' && xoxNodes[8].innerHTML === 'X'){
                     obojiPolja(6, 7, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -383,13 +383,13 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[7].innerHTML = 'O';
 
-                if(xoxNodes[1].innerHTML === 'O' && xoxNodes[4]. innerHTML === 'O'){
+                if(xoxNodes[1].innerHTML === 'O' && xoxNodes[4].innerHTML === 'O'){
                     obojiPolja(1, 4, 7, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[6].innerHTML === 'O' && xoxNodes[8]. innerHTML === 'O'){
+                }else if(xoxNodes[6].innerHTML === 'O' && xoxNodes[8].innerHTML === 'O'){
                     obojiPolja(6, 7, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
@@ -408,19 +408,19 @@ document.addEventListener('click', (event) => {
             if(trenutniPotez === 'X'){
                 xoxNodes[8].innerHTML = 'X';
 
-                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[4]. innerHTML === 'X'){
+                if(xoxNodes[0].innerHTML === 'X' && xoxNodes[4].innerHTML === 'X'){
                     obojiPolja(0, 4, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[2].innerHTML === 'X' && xoxNodes[5]. innerHTML === 'X'){
+                }else if(xoxNodes[2].innerHTML === 'X' && xoxNodes[5].innerHTML === 'X'){
                     obojiPolja(2, 5, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac X');
-                }else if(xoxNodes[6].innerHTML === 'X' && xoxNodes[7]. innerHTML === 'X'){
+                }else if(xoxNodes[6].innerHTML === 'X' && xoxNodes[7].innerHTML === 'X'){
                     obojiPolja(6, 7, 8, 'X');
                     pobeda = true;
                     XPoeni.innerHTML++;
@@ -433,19 +433,19 @@ document.addEventListener('click', (event) => {
             }else {
                 xoxNodes[8].innerHTML = 'O';
 
-                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[4]. innerHTML === 'O'){
+                if(xoxNodes[0].innerHTML === 'O' && xoxNodes[4].innerHTML === 'O'){
                     obojiPolja(0, 4, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[2].innerHTML === 'O' && xoxNodes[5]. innerHTML === 'O'){
+                }else if(xoxNodes[2].innerHTML === 'O' && xoxNodes[5].innerHTML === 'O'){
                     obojiPolja(2, 5, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
                     otkrijRezultat();
                     alert('Pobedio je igrac O');
-                }else if(xoxNodes[6].innerHTML === 'O' && xoxNodes[7]. innerHTML === 'O'){
+                }else if(xoxNodes[6].innerHTML === 'O' && xoxNodes[7].innerHTML === 'O'){
                     obojiPolja(6, 7, 8, 'O');
                     pobeda = true;
                     OPoeni.innerHTML++;
